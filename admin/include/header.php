@@ -54,34 +54,23 @@
 <div class="row" hi>
 <div class="col-md-2">
     
-<!--       
-        <div class="list-group list-group-flush">
-        <a href="<?php echo $url; ?>index.php" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="<?php echo $url; ?>donor/" class="list-group-item list-group-item-action bg-light">Donor List</a>
-        <a href="<?php echo $url;?>donor/create.php" class="list-group-item list-group-item-action bg-light">Add Donor</a>
-        <a href="<?php echo $url; ?>donate/" class="list-group-item list-group-item-action bg-light">Donate Information</a>
-        <a href="<?php echo $url; ?>donate/create.php" class="list-group-item list-group-item-action bg-light">Add Donate Data</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
      
-       
-
-
-    </div> -->
+      
 <div class="container">
   
 <div class="row">
-    <div class="w3-sidebar w3-bar-block w3-light-grey w3-xxlarge" style="width:300px">
+    <div class="w3-sidebar w3-bar-block w3-light-grey w3-xxlarge" style="width:267px">
   <a href="<?php echo $url; ?>index.php" class="w3-bar-item w3-button"><i class="fa fa-home"><span style="color:#566573 ;  margin-left: 16px;font-size:25px;">Dashboard </span></i> </a>
 
-  <a href="<?php echo $url; ?>index.php" class="w3-bar-item w3-button"><i class="fa fa-bars" aria-hidden="true"><span style="color:#566573 ;  margin-left: 16px;font-size:25px;">Donor List </span></i> </a> 
+  <a href="<?php echo $url; ?>donor/" class="w3-bar-item w3-button"><i class="fa fa-bars" aria-hidden="true"><span style="color:#566573 ;  margin-left: 16px;font-size:25px;">Donor List </span></i> </a> 
   
-  <a href="<?php echo $url; ?>index.php" class="w3-bar-item w3-button"><i class="fa fa-database"><span style="color:#566573 ;  margin-left: 16px;font-size:25px;">Donate Info. </span></i> </a> 
+  <a href="<?php echo $url; ?>donate/" class="w3-bar-item w3-button"><i class="fa fa-database"><span style="color:#566573 ;  margin-left: 16px;font-size:25px;">Donate Info. </span></i> </a> 
 
-  <a href="<?php echo $url; ?>index.php" class="w3-bar-item w3-button"><i class="fa fa-plus-square" aria-hidden="true"><span style="color:#566573 ;  margin-left: 16px;font-size:25px;"> Add Donor Data </span></i> </a> 
+  <a href="<?php echo $url; ?>donor/create.php" class="w3-bar-item w3-button"><i class="fa fa-plus-square" aria-hidden="true"><span style="color:#566573 ;  margin-left: 16px;font-size:25px;"> Add Donor Data </span></i> </a> 
   
 
   
-  <a href="<?php echo $url; ?>index.php" class="w3-bar-item w3-button"><i class="fa fa-plus-square"><span style="color:#566573 ;  margin-left: 16px;font-size:25px;">Add Donate Data </span></i> </a> 
+  <a href="<?php echo $url; ?>donate/create.php" class="w3-bar-item w3-button"><i class="fa fa-plus-square"><span style="color:#566573 ;  margin-left: 16px;font-size:25px;">Add Donate Data </span></i> </a> 
 
   
 </div>
