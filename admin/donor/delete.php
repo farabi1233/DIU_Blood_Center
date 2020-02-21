@@ -4,7 +4,9 @@ include('../include/connect.php');
 $con = connect_db();
 
 
+
 $sql = "SELECT * FROM donor_list WHERE id = $id";
+
 $result = mysqli_query($con, $sql);
 $data = mysqli_fetch_assoc($result);
 $image_location = '../'.$data['image'];

@@ -4,7 +4,7 @@ if(isset($_GET['id'])){
     include('../include/connect.php');
     $con = connect_db();
     $id = $_GET['id'];
-    $sql = "SELECT posts.*, categories.title as category_title FROM posts JOIN categories ON posts.category_id = categories.id where posts.id ='$id' ";
+    $sql = "SELECT donor_list.*, categories.title as category_title FROM posts JOIN categories ON posts.category_id = categories.id where posts.id ='$id' ";
     $result = mysqli_query($con, $sql);
     $row = mysqli_fetch_assoc($result);
 
