@@ -51,7 +51,7 @@ $result = mysqli_query($con, $sql);
         <div class="form-group">
             <label for="name">Gender</label>
             <select  type="text" class="form-control" name="gender">
-                <option value=""  >Select Gender ...</option>
+                <option value="" disabled selected >Select Gender ...</option>
               
                 <option value="male">Male</option>
                 <option value="female">Female</option>
