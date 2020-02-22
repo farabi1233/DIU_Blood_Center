@@ -49,6 +49,7 @@ $result_bg = mysqli_query($con, $sql_bg);
             <div class="form-group">
                 <label for="name">Blood Group</label>
                 <select type="text" class="form-control" name="blood_group_id">
+                
 
 
 
@@ -83,7 +84,7 @@ $result_bg = mysqli_query($con, $sql_bg);
             </div>
             <div class="form-group">
             <label for="name">Gender</label>
-            <select  type="text" class="form-control" name="gender">
+            <select  type="text" class="form-control" name="gender" required>
                 <option value="" disabled selected >Select Gender ...</option>
               
                 <option value="male">Male</option>
